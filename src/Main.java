@@ -1,4 +1,7 @@
+import java.util.Locale;
 import java.util.Scanner;
+
+import static java.util.Locale.US;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +16,7 @@ public class Main {
  */
 
         // Aula
-
+/*
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Que horas são? ");
@@ -32,6 +35,44 @@ public class Main {
             }
         }
         sc.close();
+        */
 
+        // Aula for com break-point
+
+/*        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        for (int i = 0; i <= n; i++){
+            int x = i;
+            int y = 0 + x;
+
+            System.out.println("x = " + y);
+        }
+
+        sc.close();
+*/
+
+        // Aula Do-While
+        Locale.setDefault(US);
+        Scanner sc = new Scanner(System.in);
+
+
+        char repetir;
+        do {
+
+            System.out.print("Digite a temperatura em Celsius: ");
+            double tempCelsius = sc.nextDouble();
+
+            double resultado = (9.0 * tempCelsius) / 5 + 32;
+
+            System.out.printf("A temperatura convertida para Fahrenheit: %.1f%n", resultado);
+
+            repetir = 'Y';
+            System.out.print("Deseja repetir a operação? (N/Y)");
+            repetir = sc.next().charAt(0);
+
+        } while (repetir != 'N' && repetir != 'n');
+
+        sc.close();
     }
 }
