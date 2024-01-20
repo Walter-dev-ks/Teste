@@ -22,6 +22,7 @@ Se você quiser contribuir para este repositório, sinta-se à vontade para:
 
    ```bash
       git clone https://github.com/seu-usuario/java-study-repo.git
+   ```
 
   ### 1.Crie uma Branch: Crie uma branch para trabalhar nas suas alterações.
   
@@ -29,10 +30,12 @@ Se você quiser contribuir para este repositório, sinta-se à vontade para:
 
 ### 2.Faça suas Alterações: Adicione, modifique ou remova código conforme necessário.
 ### 3.Commit e Push: Commit suas alterações e faça push para a sua branch.
-
+  ```bash
+   git commit -m "Descrição das alterações"
+```
 ```bash
-   git commit -m "Descrição das alterações
    git push origin nome-da-sua-branch
+```
 
 ### 4.Pull Request: Abra um Pull Request para que suas alterações possam ser revisadas e incorporadas ao repositório principal.
 
