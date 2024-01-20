@@ -21,13 +21,13 @@ Se você quiser contribuir para este repositório, sinta-se à vontade para:
 2. **Clone**: Clone o fork para a sua máquina local.
 
    ```bash
-      git clone https://github.com/seu-usuario/java-study-repo.git
+   git clone https://github.com/seu-usuario/java-study-repo.git
    ```
 
   ### 1.Crie uma Branch: Crie uma branch para trabalhar nas suas alterações.
-  
-     git checkout -b nome-da-sua-branch
-
+   ```bash  
+   git checkout -b nome-da-sua-branch
+   ```
 ### 2.Faça suas Alterações: Adicione, modifique ou remova código conforme necessário.
 ### 3.Commit e Push: Commit suas alterações e faça push para a sua branch.
   ```bash
